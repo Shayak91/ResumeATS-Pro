@@ -57,7 +57,7 @@ job_description = st.text_area("Enter the job description (optional)")
 
 # Analysis options
 analysis_option = st.radio("Choose analysis type:", 
-                           ["Quick Scan", "Detailed Analysis", "ATS Optimization"])
+                        ["Quick Scan", "Detailed Analysis", "ATS Optimization"])
 
 if st.button("Analyze Resume"):
     if upload_file is not None:
